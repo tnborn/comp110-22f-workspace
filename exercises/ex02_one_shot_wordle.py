@@ -25,3 +25,7 @@ else:
         if wordle_guess == secret_word:
             print("Woo! You got it!")
             exit()
+
+white_box: str = "\U00002B1C"
+green_box: str = "\U0001F7E9"
+yellow_box: str = "\U0001F7E8"
